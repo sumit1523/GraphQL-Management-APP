@@ -8,6 +8,7 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
+// Entrypoint
 app.use(
   "/graphql",
   graphqlHTTP({
